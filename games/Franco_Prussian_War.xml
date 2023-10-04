@@ -1,0 +1,1956 @@
+<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+    <info name="Franco-Prussian War" version="1.3"/>
+    <loader javaClass="games.strategy.triplea.TripleA"/>
+    <map>
+        <!-- Territory Definitions -->
+        <territory name="Argonne"/>
+        <territory name="Arzviller"/>
+        <territory name="Austrian border region"/>
+        <territory name="BELGIUM"/>
+        <territory name="Baden Rhine territory"/>
+        <territory name="Bar Le Duc"/>
+        <territory name="Barr"/>
+        <territory name="Beanscon"/>
+        <territory name="Beanscon Canal Sector"/>
+        <territory name="Bernstein"/>
+        <territory name="Birkweller"/>
+        <territory name="Bitche"/>
+        <territory name="Bobingen"/>
+        <territory name="Bourg"/>
+        <territory name="Buchig"/>
+        <territory name="Busenbach"/>
+        <territory name="Central Alb"/>
+        <territory name="Central Baden"/>
+        <territory name="Central Border Region"/>
+        <territory name="Central German terrtory"/>
+        <territory name="Central Rhine"/>
+        <territory name="Central Rhone Canal"/>
+        <territory name="Central Saar"/>
+        <territory name="Central West Rhine"/>
+        <territory name="Cernay"/>
+        <territory name="Cernay Fields"/>
+        <territory name="Champagnole"/>
+        <territory name="Colmar"/>
+        <territory name="Durlach"/>
+        <territory name="East Baden Swiss border"/>
+        <territory name="East Baden border"/>
+        <territory name="East Buchig"/>
+        <territory name="East Central Saar"/>
+        <territory name="East Comte"/>
+        <territory name="East Frie fields"/>
+        <territory name="East German Swiss border"/>
+        <territory name="East Hagsfeld"/>
+        <territory name="East Heidenheim fields"/>
+        <territory name="East Itters fields"/>
+        <territory name="East Langenalb"/>
+        <territory name="East Lautere"/>
+        <territory name="East North Border Region"/>
+        <territory name="East Pfalz"/>
+        <territory name="East Rodermarck"/>
+        <territory name="East Saar"/>
+        <territory name="East Swiss Rhine"/>
+        <territory name="East Swiss hills"/>
+        <territory name="East Wingen Moder"/>
+        <territory name="East central France"/>
+        <territory name="Eggenstein"/>
+        <territory name="Essingen"/>
+        <territory name="Ettlingen"/>
+        <territory name="Frieburg"/>
+        <territory name="German Provinz area"/>
+        <territory name="Grand Ballon"/>
+        <territory name="Grotzingen"/>
+        <territory name="Hagsfeld"/>
+        <territory name="Hanhofen"/>
+        <territory name="Hassloch"/>
+        <territory name="Haut Koenigsburg"/>
+        <territory name="Heidelburg"/>
+        <territory name="Heidelburg Pfalz"/>
+        <territory name="Heidenheim"/>
+        <territory name="Herrisson"/>
+        <territory name="Hohneck"/>
+        <territory name="Inner German territory"/>
+        <territory name="Ittersbach"/>
+        <territory name="Kaiserslautern"/>
+        <territory name="LUXEMBOURG"/>
+        <territory name="Langenalb"/>
+        <territory name="Lauda"/>
+        <territory name="Leidolsheim"/>
+        <territory name="Lembach"/>
+        <territory name="Linkenheim"/>
+        <territory name="Longwy"/>
+        <territory name="Lorraine to Alsace Road"/>
+        <territory name="Lower Baden Rhine"/>
+        <territory name="Lower Meuse"/>
+        <territory name="Lower Mid Rhine"/>
+        <territory name="Lower Mosel"/>
+        <territory name="Lower Rhine"/>
+        <territory name="Lower Saar"/>
+        <territory name="Lower main Germany"/>
+        <territory name="Luneville"/>
+        <territory name="Main Rhine"/>
+        <territory name="Main West Rhine"/>
+        <territory name="Marlenheim"/>
+        <territory name="Metz"/>
+        <territory name="Mid Comte"/>
+        <territory name="Mid Region Fields"/>
+        <territory name="Mid Rhine"/>
+        <territory name="Middle French Meuse"/>
+        <territory name="Morteau"/>
+        <territory name="Mousson"/>
+        <territory name="Mulhouse"/>
+        <territory name="Munster"/>
+        <territory name="Nancy"/>
+        <territory name="North Baden Lorraine Provinz"/>
+        <territory name="North Comte"/>
+        <territory name="North East Pfalz"/>
+        <territory name="North Frie fields"/>
+        <territory name="North Heidenheim fields"/>
+        <territory name="North Lautere"/>
+        <territory name="North Pfalz"/>
+        <territory name="North West Pfalz"/>
+        <territory name="Northwest Comte"/>
+        <territory name="Ornans"/>
+        <territory name="Pfalz border area"/>
+        <territory name="Pfalz fields"/>
+        <territory name="Pfalz lowlands"/>
+        <territory name="Pflinz"/>
+        <territory name="Pflinz road"/>
+        <territory name="Phalsbourg"/>
+        <territory name="Pirmasens"/>
+        <territory name="Pontarlier"/>
+        <territory name="Provinz Border"/>
+        <territory name="Rhine fields"/>
+        <territory name="Rhone Rhine Link"/>
+        <territory name="Rodermarck"/>
+        <territory name="Roll"/>
+        <territory name="Romeberg"/>
+        <territory name="Rossel"/>
+        <territory name="Russheim"/>
+        <territory name="SWITZERLAND"/>
+        <territory name="Saar Pir Road"/>
+        <territory name="Saarbrucken"/>
+        <territory name="Salins"/>
+        <territory name="Sarregemuines"/>
+        <territory name="Saverne"/>
+        <territory name="Selestat"/>
+        <territory name="Sonderheim"/>
+        <territory name="South Baden Lorraine Provinz"/>
+        <territory name="South Beanscon"/>
+        <territory name="South Comte"/>
+        <territory name="South East Federation territory"/>
+        <territory name="South Heidenheim fields"/>
+        <territory name="South Lautere"/>
+        <territory name="South Pfalz"/>
+        <territory name="South Pfalz fields"/>
+        <territory name="South Rhine"/>
+        <territory name="South Rhone Canal"/>
+        <territory name="South Rossel"/>
+        <territory name="South Stutt road"/>
+        <territory name="South West Federation territory"/>
+        <territory name="South West Pfalz"/>
+        <territory name="Southwest Frie fields"/>
+        <territory name="Speyer"/>
+        <territory name="St Die"/>
+        <territory name="St Laurent"/>
+        <territory name="Staffort"/>
+        <territory name="Strasbourg"/>
+        <territory name="Straszburg border sector"/>
+        <territory name="Stupferich"/>
+        <territory name="Stuttensee"/>
+        <territory name="Stuttgart"/>
+        <territory name="Stuttgart Pfalz"/>
+        <territory name="Swiss Border"/>
+        <territory name="Swiss Rhine"/>
+        <territory name="Swiss salient area"/>
+        <territory name="Thionville"/>
+        <territory name="Tuttlingen"/>
+        <territory name="Upper Canal Route"/>
+        <territory name="Upper Meuse"/>
+        <territory name="Upper Mosel"/>
+        <territory name="Upper Saar"/>
+        <territory name="Waldbronn"/>
+        <territory name="Weingarten"/>
+        <territory name="West Baden Swiss border"/>
+        <territory name="West Frie fields"/>
+        <territory name="West North Border Region"/>
+        <territory name="West Pfalz"/>
+        <territory name="West Rhone Canal"/>
+        <territory name="West Stutt road"/>
+        <territory name="West Wingen Moder"/>
+        <territory name="Wissembourg"/>
+        <territory name="Worth"/>
+
+        <!-- Territory Connections -->
+        <connection t1="Argonne" t2="BELGIUM"/>
+        <connection t1="Argonne" t2="Bar Le Duc"/>
+        <connection t1="Argonne" t2="Lower Meuse"/>
+        <connection t1="Argonne" t2="Middle French Meuse"/>
+        <connection t1="Argonne" t2="Upper Meuse"/>
+        <connection t1="Arzviller" t2="Barr"/>
+        <connection t1="Arzviller" t2="Bitche"/>
+        <connection t1="Arzviller" t2="Haut Koenigsburg"/>
+        <connection t1="Arzviller" t2="Marlenheim"/>
+        <connection t1="Arzviller" t2="Munster"/>
+        <connection t1="Arzviller" t2="Phalsbourg"/>
+        <connection t1="Arzviller" t2="Saverne"/>
+        <connection t1="Austrian border region" t2="Bernstein"/>
+        <connection t1="Austrian border region" t2="Inner German territory"/>
+        <connection t1="Austrian border region" t2="Lower main Germany"/>
+        <connection t1="BELGIUM" t2="Bar Le Duc"/>
+        <connection t1="BELGIUM" t2="LUXEMBOURG"/>
+        <connection t1="BELGIUM" t2="Upper Meuse"/>
+        <connection t1="Baden Rhine territory" t2="Central Baden"/>
+        <connection t1="Baden Rhine territory" t2="Central Rhine"/>
+        <connection t1="Baden Rhine territory" t2="East Frie fields"/>
+        <connection t1="Baden Rhine territory" t2="Main Rhine"/>
+        <connection t1="Baden Rhine territory" t2="North Frie fields"/>
+        <connection t1="Bar Le Duc" t2="Lower Meuse"/>
+        <connection t1="Bar Le Duc" t2="Metz"/>
+        <connection t1="Bar Le Duc" t2="Northwest Comte"/>
+        <connection t1="Barr" t2="Colmar"/>
+        <connection t1="Barr" t2="Marlenheim"/>
+        <connection t1="Barr" t2="Mulhouse"/>
+        <connection t1="Barr" t2="Munster"/>
+        <connection t1="Barr" t2="Selestat"/>
+        <connection t1="Beanscon" t2="Beanscon Canal Sector"/>
+        <connection t1="Beanscon" t2="Central Rhone Canal"/>
+        <connection t1="Beanscon" t2="Ornans"/>
+        <connection t1="Beanscon" t2="South Beanscon"/>
+        <connection t1="Beanscon Canal Sector" t2="Central Rhone Canal"/>
+        <connection t1="Beanscon Canal Sector" t2="Grand Ballon"/>
+        <connection t1="Beanscon Canal Sector" t2="Luneville"/>
+        <connection t1="Beanscon Canal Sector" t2="Ornans"/>
+        <connection t1="Beanscon Canal Sector" t2="South Rhone Canal"/>
+        <connection t1="Bernstein" t2="Central Alb"/>
+        <connection t1="Bernstein" t2="East German Swiss border"/>
+        <connection t1="Bernstein" t2="East Heidenheim fields"/>
+        <connection t1="Bernstein" t2="Lower main Germany"/>
+        <connection t1="Bernstein" t2="Staffort"/>
+        <connection t1="Birkweller" t2="Bobingen"/>
+        <connection t1="Birkweller" t2="Essingen"/>
+        <connection t1="Birkweller" t2="Hanhofen"/>
+        <connection t1="Birkweller" t2="Roll"/>
+        <connection t1="Birkweller" t2="Romeberg"/>
+        <connection t1="Bitche" t2="Lembach"/>
+        <connection t1="Bitche" t2="Pfalz border area"/>
+        <connection t1="Bitche" t2="Phalsbourg"/>
+        <connection t1="Bitche" t2="Pirmasens"/>
+        <connection t1="Bitche" t2="Saar Pir Road"/>
+        <connection t1="Bitche" t2="Sarregemuines"/>
+        <connection t1="Bitche" t2="Saverne"/>
+        <connection t1="Bitche" t2="Wissembourg"/>
+        <connection t1="Bobingen" t2="Hanhofen"/>
+        <connection t1="Bobingen" t2="Heidelburg"/>
+        <connection t1="Bobingen" t2="Romeberg"/>
+        <connection t1="Bobingen" t2="Sonderheim"/>
+        <connection t1="Bobingen" t2="Weingarten"/>
+        <connection t1="Bourg" t2="East central France"/>
+        <connection t1="Bourg" t2="Mid Comte"/>
+        <connection t1="Bourg" t2="South Comte"/>
+        <connection t1="Buchig" t2="East Buchig"/>
+        <connection t1="Buchig" t2="East Hagsfeld"/>
+        <connection t1="Buchig" t2="Hagsfeld"/>
+        <connection t1="Buchig" t2="South Heidenheim fields"/>
+        <connection t1="Buchig" t2="Staffort"/>
+        <connection t1="Buchig" t2="Stupferich"/>
+        <connection t1="Buchig" t2="Stuttensee"/>
+        <connection t1="Buchig" t2="Tuttlingen"/>
+        <connection t1="Busenbach" t2="Ettlingen"/>
+        <connection t1="Busenbach" t2="Grotzingen"/>
+        <connection t1="Busenbach" t2="Hagsfeld"/>
+        <connection t1="Busenbach" t2="Ittersbach"/>
+        <connection t1="Busenbach" t2="South Rhine"/>
+        <connection t1="Busenbach" t2="Tuttlingen"/>
+        <connection t1="Busenbach" t2="Waldbronn"/>
+        <connection t1="Central Alb" t2="East Buchig"/>
+        <connection t1="Central Alb" t2="East German Swiss border"/>
+        <connection t1="Central Alb" t2="East Langenalb"/>
+        <connection t1="Central Alb" t2="Langenalb"/>
+        <connection t1="Central Alb" t2="Staffort"/>
+        <connection t1="Central Baden" t2="Central Rhine"/>
+        <connection t1="Central Baden" t2="East Frie fields"/>
+        <connection t1="Central Baden" t2="East Swiss Rhine"/>
+        <connection t1="Central Baden" t2="Lower Baden Rhine"/>
+        <connection t1="Central Border Region" t2="East North Border Region"/>
+        <connection t1="Central Border Region" t2="East Rodermarck"/>
+        <connection t1="Central Border Region" t2="Mid Region Fields"/>
+        <connection t1="Central Border Region" t2="South Rossel"/>
+        <connection t1="Central Border Region" t2="Thionville"/>
+        <connection t1="Central Border Region" t2="West North Border Region"/>
+        <connection t1="Central Border Region" t2="West Wingen Moder"/>
+        <connection t1="Central German terrtory" t2="Inner German territory"/>
+        <connection t1="Central German terrtory" t2="Lauda"/>
+        <connection t1="Central German terrtory" t2="Roll"/>
+        <connection t1="Central German terrtory" t2="Speyer"/>
+        <connection t1="Central Rhine" t2="East Baden border"/>
+        <connection t1="Central Rhine" t2="Lower Baden Rhine"/>
+        <connection t1="Central Rhine" t2="Main Rhine"/>
+        <connection t1="Central Rhine" t2="Rhine fields"/>
+        <connection t1="Central Rhine" t2="South Stutt road"/>
+        <connection t1="Central Rhone Canal" t2="Luneville"/>
+        <connection t1="Central Rhone Canal" t2="Nancy"/>
+        <connection t1="Central Rhone Canal" t2="North Comte"/>
+        <connection t1="Central Rhone Canal" t2="South Beanscon"/>
+        <connection t1="Central Rhone Canal" t2="West Rhone Canal"/>
+        <connection t1="Central Saar" t2="East Central Saar"/>
+        <connection t1="Central Saar" t2="German Provinz area"/>
+        <connection t1="Central Saar" t2="South West Federation territory"/>
+        <connection t1="Central Saar" t2="Upper Saar"/>
+        <connection t1="Central Saar" t2="West North Border Region"/>
+        <connection t1="Central West Rhine" t2="Lower Rhine"/>
+        <connection t1="Central West Rhine" t2="Main West Rhine"/>
+        <connection t1="Central West Rhine" t2="North Frie fields"/>
+        <connection t1="Central West Rhine" t2="South Lautere"/>
+        <connection t1="Central West Rhine" t2="West Frie fields"/>
+        <connection t1="Central West Rhine" t2="West Stutt road"/>
+        <connection t1="Cernay" t2="Cernay Fields"/>
+        <connection t1="Cernay" t2="Hohneck"/>
+        <connection t1="Cernay" t2="Munster"/>
+        <connection t1="Cernay" t2="Rhone Rhine Link"/>
+        <connection t1="Cernay" t2="Salins"/>
+        <connection t1="Cernay" t2="South Rhone Canal"/>
+        <connection t1="Cernay Fields" t2="Grand Ballon"/>
+        <connection t1="Cernay Fields" t2="Haut Koenigsburg"/>
+        <connection t1="Cernay Fields" t2="Munster"/>
+        <connection t1="Cernay Fields" t2="South Rhone Canal"/>
+        <connection t1="Champagnole" t2="East Comte"/>
+        <connection t1="Champagnole" t2="Herrisson"/>
+        <connection t1="Champagnole" t2="Morteau"/>
+        <connection t1="Champagnole" t2="Ornans"/>
+        <connection t1="Champagnole" t2="Pontarlier"/>
+        <connection t1="Champagnole" t2="Salins"/>
+        <connection t1="Colmar" t2="Hohneck"/>
+        <connection t1="Colmar" t2="Mulhouse"/>
+        <connection t1="Colmar" t2="Munster"/>
+        <connection t1="Durlach" t2="East Baden border"/>
+        <connection t1="Durlach" t2="Eggenstein"/>
+        <connection t1="Durlach" t2="Grotzingen"/>
+        <connection t1="Durlach" t2="Pflinz"/>
+        <connection t1="Durlach" t2="Russheim"/>
+        <connection t1="Durlach" t2="South Stutt road"/>
+        <connection t1="Durlach" t2="Stuttgart"/>
+        <connection t1="East Baden Swiss border" t2="Frieburg"/>
+        <connection t1="East Baden Swiss border" t2="SWITZERLAND"/>
+        <connection t1="East Baden Swiss border" t2="Southwest Frie fields"/>
+        <connection t1="East Baden Swiss border" t2="Swiss Rhine"/>
+        <connection t1="East Baden Swiss border" t2="West Baden Swiss border"/>
+        <connection t1="East Baden border" t2="Ettlingen"/>
+        <connection t1="East Baden border" t2="Grotzingen"/>
+        <connection t1="East Baden border" t2="Rhine fields"/>
+        <connection t1="East Baden border" t2="South Stutt road"/>
+        <connection t1="East Buchig" t2="Langenalb"/>
+        <connection t1="East Buchig" t2="Staffort"/>
+        <connection t1="East Buchig" t2="Stupferich"/>
+        <connection t1="East Central Saar" t2="East North Border Region"/>
+        <connection t1="East Central Saar" t2="East Saar"/>
+        <connection t1="East Central Saar" t2="South West Federation territory"/>
+        <connection t1="East Central Saar" t2="West North Border Region"/>
+        <connection t1="East Comte" t2="Herrisson"/>
+        <connection t1="East Comte" t2="Mid Comte"/>
+        <connection t1="East Comte" t2="Ornans"/>
+        <connection t1="East Comte" t2="South Beanscon"/>
+        <connection t1="East Comte" t2="South Comte"/>
+        <connection t1="East Frie fields" t2="East Swiss Rhine"/>
+        <connection t1="East Frie fields" t2="Frieburg"/>
+        <connection t1="East Frie fields" t2="North Frie fields"/>
+        <connection t1="East Frie fields" t2="Swiss Rhine"/>
+        <connection t1="East German Swiss border" t2="East Langenalb"/>
+        <connection t1="East German Swiss border" t2="SWITZERLAND"/>
+        <connection t1="East Hagsfeld" t2="Hagsfeld"/>
+        <connection t1="East Hagsfeld" t2="Tuttlingen"/>
+        <connection t1="East Heidenheim fields" t2="Heidenheim"/>
+        <connection t1="East Heidenheim fields" t2="Inner German territory"/>
+        <connection t1="East Heidenheim fields" t2="Lower main Germany"/>
+        <connection t1="East Heidenheim fields" t2="North Heidenheim fields"/>
+        <connection t1="East Heidenheim fields" t2="Staffort"/>
+        <connection t1="East Itters fields" t2="Ittersbach"/>
+        <connection t1="East Itters fields" t2="Langenalb"/>
+        <connection t1="East Itters fields" t2="SWITZERLAND"/>
+        <connection t1="East Itters fields" t2="Stupferich"/>
+        <connection t1="East Itters fields" t2="Swiss salient area"/>
+        <connection t1="East Langenalb" t2="Langenalb"/>
+        <connection t1="East Langenalb" t2="SWITZERLAND"/>
+        <connection t1="East Lautere" t2="North Lautere"/>
+        <connection t1="East Lautere" t2="South Lautere"/>
+        <connection t1="East Lautere" t2="South Pfalz fields"/>
+        <connection t1="East Lautere" t2="Stuttgart"/>
+        <connection t1="East Lautere" t2="Stuttgart Pfalz"/>
+        <connection t1="East Lautere" t2="West Stutt road"/>
+        <connection t1="East North Border Region" t2="East Saar"/>
+        <connection t1="East North Border Region" t2="Lower Saar"/>
+        <connection t1="East North Border Region" t2="Rossel"/>
+        <connection t1="East North Border Region" t2="South Rossel"/>
+        <connection t1="East North Border Region" t2="West North Border Region"/>
+        <connection t1="East Pfalz" t2="Heidelburg Pfalz"/>
+        <connection t1="East Pfalz" t2="Kaiserslautern"/>
+        <connection t1="East Pfalz" t2="North East Pfalz"/>
+        <connection t1="East Pfalz" t2="Pfalz fields"/>
+        <connection t1="East Pfalz" t2="South Pfalz"/>
+        <connection t1="East Pfalz" t2="Weingarten"/>
+        <connection t1="East Rodermarck" t2="Provinz Border"/>
+        <connection t1="East Rodermarck" t2="Rodermarck"/>
+        <connection t1="East Rodermarck" t2="Thionville"/>
+        <connection t1="East Rodermarck" t2="West North Border Region"/>
+        <connection t1="East Saar" t2="Lower Saar"/>
+        <connection t1="East Saar" t2="Pfalz lowlands"/>
+        <connection t1="East Saar" t2="South East Federation territory"/>
+        <connection t1="East Saar" t2="South West Federation territory"/>
+        <connection t1="East Swiss Rhine" t2="East Swiss hills"/>
+        <connection t1="East Swiss Rhine" t2="Lower Baden Rhine"/>
+        <connection t1="East Swiss Rhine" t2="SWITZERLAND"/>
+        <connection t1="East Swiss Rhine" t2="Swiss Rhine"/>
+        <connection t1="East Swiss hills" t2="Ittersbach"/>
+        <connection t1="East Swiss hills" t2="Lower Baden Rhine"/>
+        <connection t1="East Swiss hills" t2="SWITZERLAND"/>
+        <connection t1="East Swiss hills" t2="South Rhine"/>
+        <connection t1="East Swiss hills" t2="Swiss salient area"/>
+        <connection t1="East Swiss hills" t2="Waldbronn"/>
+        <connection t1="East Wingen Moder" t2="Lorraine to Alsace Road"/>
+        <connection t1="East Wingen Moder" t2="Phalsbourg"/>
+        <connection t1="East Wingen Moder" t2="Sarregemuines"/>
+        <connection t1="East Wingen Moder" t2="Upper Canal Route"/>
+        <connection t1="East Wingen Moder" t2="West Wingen Moder"/>
+        <connection t1="East central France" t2="Mid Comte"/>
+        <connection t1="East central France" t2="North Comte"/>
+        <connection t1="East central France" t2="Northwest Comte"/>
+        <connection t1="Eggenstein" t2="Leidolsheim"/>
+        <connection t1="Eggenstein" t2="Russheim"/>
+        <connection t1="Eggenstein" t2="Stuttgart"/>
+        <connection t1="Eggenstein" t2="Stuttgart Pfalz"/>
+        <connection t1="Essingen" t2="Lauda"/>
+        <connection t1="Essingen" t2="Linkenheim"/>
+        <connection t1="Essingen" t2="Pflinz road"/>
+        <connection t1="Essingen" t2="Roll"/>
+        <connection t1="Essingen" t2="Romeberg"/>
+        <connection t1="Ettlingen" t2="Grotzingen"/>
+        <connection t1="Ettlingen" t2="Rhine fields"/>
+        <connection t1="Ettlingen" t2="South Rhine"/>
+        <connection t1="Frieburg" t2="North Frie fields"/>
+        <connection t1="Frieburg" t2="Southwest Frie fields"/>
+        <connection t1="Frieburg" t2="Swiss Rhine"/>
+        <connection t1="Frieburg" t2="West Frie fields"/>
+        <connection t1="German Provinz area" t2="Lower Mosel"/>
+        <connection t1="German Provinz area" t2="Provinz Border"/>
+        <connection t1="German Provinz area" t2="Upper Mosel"/>
+        <connection t1="German Provinz area" t2="Upper Saar"/>
+        <connection t1="German Provinz area" t2="West North Border Region"/>
+        <connection t1="Grand Ballon" t2="Haut Koenigsburg"/>
+        <connection t1="Grand Ballon" t2="Luneville"/>
+        <connection t1="Grand Ballon" t2="South Rhone Canal"/>
+        <connection t1="Grand Ballon" t2="St Die"/>
+        <connection t1="Grotzingen" t2="Hagsfeld"/>
+        <connection t1="Grotzingen" t2="Pflinz"/>
+        <connection t1="Grotzingen" t2="Stuttensee"/>
+        <connection t1="Hagsfeld" t2="Stuttensee"/>
+        <connection t1="Hagsfeld" t2="Tuttlingen"/>
+        <connection t1="Hanhofen" t2="Hassloch"/>
+        <connection t1="Hanhofen" t2="North East Pfalz"/>
+        <connection t1="Hanhofen" t2="Roll"/>
+        <connection t1="Hanhofen" t2="Speyer"/>
+        <connection t1="Hanhofen" t2="Weingarten"/>
+        <connection t1="Hassloch" t2="North East Pfalz"/>
+        <connection t1="Hassloch" t2="North Pfalz"/>
+        <connection t1="Hassloch" t2="Speyer"/>
+        <connection t1="Haut Koenigsburg" t2="Munster"/>
+        <connection t1="Haut Koenigsburg" t2="Phalsbourg"/>
+        <connection t1="Haut Koenigsburg" t2="St Die"/>
+        <connection t1="Haut Koenigsburg" t2="Upper Canal Route"/>
+        <connection t1="Heidelburg" t2="Heidelburg Pfalz"/>
+        <connection t1="Heidelburg" t2="Sonderheim"/>
+        <connection t1="Heidelburg" t2="Weingarten"/>
+        <connection t1="Heidelburg" t2="Worth"/>
+        <connection t1="Heidelburg Pfalz" t2="Pfalz fields"/>
+        <connection t1="Heidelburg Pfalz" t2="Weingarten"/>
+        <connection t1="Heidelburg Pfalz" t2="Worth"/>
+        <connection t1="Heidenheim" t2="North Heidenheim fields"/>
+        <connection t1="Heidenheim" t2="South Heidenheim fields"/>
+        <connection t1="Heidenheim" t2="Staffort"/>
+        <connection t1="Herrisson" t2="Pontarlier"/>
+        <connection t1="Herrisson" t2="South Comte"/>
+        <connection t1="Herrisson" t2="St Laurent"/>
+        <connection t1="Hohneck" t2="Mulhouse"/>
+        <connection t1="Hohneck" t2="Munster"/>
+        <connection t1="Hohneck" t2="Rhone Rhine Link"/>
+        <connection t1="Inner German territory" t2="Lauda"/>
+        <connection t1="Inner German territory" t2="Lower main Germany"/>
+        <connection t1="Inner German territory" t2="North Heidenheim fields"/>
+        <connection t1="Ittersbach" t2="Stupferich"/>
+        <connection t1="Ittersbach" t2="Swiss salient area"/>
+        <connection t1="Ittersbach" t2="Tuttlingen"/>
+        <connection t1="Ittersbach" t2="Waldbronn"/>
+        <connection t1="Kaiserslautern" t2="North East Pfalz"/>
+        <connection t1="Kaiserslautern" t2="North Pfalz"/>
+        <connection t1="Kaiserslautern" t2="North West Pfalz"/>
+        <connection t1="Kaiserslautern" t2="South Pfalz"/>
+        <connection t1="Kaiserslautern" t2="South West Pfalz"/>
+        <connection t1="Kaiserslautern" t2="West Pfalz"/>
+        <connection t1="LUXEMBOURG" t2="Longwy"/>
+        <connection t1="LUXEMBOURG" t2="Lower Mosel"/>
+        <connection t1="LUXEMBOURG" t2="Upper Meuse"/>
+        <connection t1="LUXEMBOURG" t2="Upper Mosel"/>
+        <connection t1="Langenalb" t2="SWITZERLAND"/>
+        <connection t1="Langenalb" t2="Stupferich"/>
+        <connection t1="Lauda" t2="Linkenheim"/>
+        <connection t1="Lauda" t2="North Heidenheim fields"/>
+        <connection t1="Lauda" t2="Roll"/>
+        <connection t1="Leidolsheim" t2="Russheim"/>
+        <connection t1="Leidolsheim" t2="Sonderheim"/>
+        <connection t1="Leidolsheim" t2="Stuttgart Pfalz"/>
+        <connection t1="Leidolsheim" t2="Worth"/>
+        <connection t1="Lembach" t2="Lower Rhine"/>
+        <connection t1="Lembach" t2="Saverne"/>
+        <connection t1="Lembach" t2="Strasbourg"/>
+        <connection t1="Lembach" t2="Straszburg border sector"/>
+        <connection t1="Lembach" t2="Wissembourg"/>
+        <connection t1="Linkenheim" t2="North Heidenheim fields"/>
+        <connection t1="Linkenheim" t2="Pflinz road"/>
+        <connection t1="Longwy" t2="Lower Mosel"/>
+        <connection t1="Longwy" t2="Middle French Meuse"/>
+        <connection t1="Longwy" t2="Provinz Border"/>
+        <connection t1="Longwy" t2="Rodermarck"/>
+        <connection t1="Longwy" t2="Upper Meuse"/>
+        <connection t1="Lorraine to Alsace Road" t2="Luneville"/>
+        <connection t1="Lorraine to Alsace Road" t2="Mid Region Fields"/>
+        <connection t1="Lorraine to Alsace Road" t2="Mousson"/>
+        <connection t1="Lorraine to Alsace Road" t2="St Die"/>
+        <connection t1="Lorraine to Alsace Road" t2="Upper Canal Route"/>
+        <connection t1="Lorraine to Alsace Road" t2="West Wingen Moder"/>
+        <connection t1="Lower Baden Rhine" t2="Rhine fields"/>
+        <connection t1="Lower Baden Rhine" t2="South Rhine"/>
+        <connection t1="Lower Meuse" t2="Metz"/>
+        <connection t1="Lower Meuse" t2="Middle French Meuse"/>
+        <connection t1="Lower Meuse" t2="Mousson"/>
+        <connection t1="Lower Meuse" t2="Nancy"/>
+        <connection t1="Lower Meuse" t2="West Rhone Canal"/>
+        <connection t1="Lower Mid Rhine" t2="Mid Rhine"/>
+        <connection t1="Lower Mid Rhine" t2="Mulhouse"/>
+        <connection t1="Lower Mid Rhine" t2="SWITZERLAND"/>
+        <connection t1="Lower Mosel" t2="Provinz Border"/>
+        <connection t1="Lower Mosel" t2="Upper Mosel"/>
+        <connection t1="Lower Rhine" t2="South Lautere"/>
+        <connection t1="Lower Rhine" t2="Straszburg border sector"/>
+        <connection t1="Lower Rhine" t2="West Frie fields"/>
+        <connection t1="Lower Rhine" t2="Wissembourg"/>
+        <connection t1="Lower Saar" t2="Pfalz lowlands"/>
+        <connection t1="Lower Saar" t2="Rossel"/>
+        <connection t1="Lower Saar" t2="Saar Pir Road"/>
+        <connection t1="Lower Saar" t2="Saarbrucken"/>
+        <connection t1="Luneville" t2="Mousson"/>
+        <connection t1="Luneville" t2="Nancy"/>
+        <connection t1="Luneville" t2="St Die"/>
+        <connection t1="Main Rhine" t2="Main West Rhine"/>
+        <connection t1="Main Rhine" t2="North Frie fields"/>
+        <connection t1="Main Rhine" t2="South Stutt road"/>
+        <connection t1="Main West Rhine" t2="North Frie fields"/>
+        <connection t1="Main West Rhine" t2="South Stutt road"/>
+        <connection t1="Main West Rhine" t2="West Stutt road"/>
+        <connection t1="Marlenheim" t2="Saverne"/>
+        <connection t1="Marlenheim" t2="Selestat"/>
+        <connection t1="Marlenheim" t2="Strasbourg"/>
+        <connection t1="Metz" t2="Northwest Comte"/>
+        <connection t1="Metz" t2="West Rhone Canal"/>
+        <connection t1="Mid Comte" t2="North Comte"/>
+        <connection t1="Mid Comte" t2="South Beanscon"/>
+        <connection t1="Mid Comte" t2="South Comte"/>
+        <connection t1="Mid Region Fields" t2="Mousson"/>
+        <connection t1="Mid Region Fields" t2="Thionville"/>
+        <connection t1="Mid Region Fields" t2="West Wingen Moder"/>
+        <connection t1="Mid Rhine" t2="Mulhouse"/>
+        <connection t1="Mid Rhine" t2="SWITZERLAND"/>
+        <connection t1="Mid Rhine" t2="Selestat"/>
+        <connection t1="Mid Rhine" t2="South Baden Lorraine Provinz"/>
+        <connection t1="Mid Rhine" t2="West Baden Swiss border"/>
+        <connection t1="Middle French Meuse" t2="Mousson"/>
+        <connection t1="Middle French Meuse" t2="Rodermarck"/>
+        <connection t1="Middle French Meuse" t2="Thionville"/>
+        <connection t1="Middle French Meuse" t2="Upper Meuse"/>
+        <connection t1="Morteau" t2="Pontarlier"/>
+        <connection t1="Morteau" t2="Rhone Rhine Link"/>
+        <connection t1="Morteau" t2="Salins"/>
+        <connection t1="Morteau" t2="Swiss Border"/>
+        <connection t1="Mousson" t2="Nancy"/>
+        <connection t1="Mousson" t2="Thionville"/>
+        <connection t1="Mulhouse" t2="Rhone Rhine Link"/>
+        <connection t1="Mulhouse" t2="SWITZERLAND"/>
+        <connection t1="Mulhouse" t2="Selestat"/>
+        <connection t1="Nancy" t2="West Rhone Canal"/>
+        <connection t1="North Baden Lorraine Provinz" t2="Selestat"/>
+        <connection t1="North Baden Lorraine Provinz" t2="South Baden Lorraine Provinz"/>
+        <connection t1="North Baden Lorraine Provinz" t2="Southwest Frie fields"/>
+        <connection t1="North Baden Lorraine Provinz" t2="Straszburg border sector"/>
+        <connection t1="North Baden Lorraine Provinz" t2="West Frie fields"/>
+        <connection t1="North Comte" t2="Northwest Comte"/>
+        <connection t1="North Comte" t2="South Beanscon"/>
+        <connection t1="North Comte" t2="West Rhone Canal"/>
+        <connection t1="North East Pfalz" t2="North Pfalz"/>
+        <connection t1="North East Pfalz" t2="Weingarten"/>
+        <connection t1="North Frie fields" t2="West Frie fields"/>
+        <connection t1="North Heidenheim fields" t2="Pflinz road"/>
+        <connection t1="North Heidenheim fields" t2="South Heidenheim fields"/>
+        <connection t1="North Heidenheim fields" t2="Stuttensee"/>
+        <connection t1="North Lautere" t2="Pfalz border area"/>
+        <connection t1="North Lautere" t2="South Lautere"/>
+        <connection t1="North Lautere" t2="South Pfalz fields"/>
+        <connection t1="North Lautere" t2="Wissembourg"/>
+        <connection t1="North Pfalz" t2="North West Pfalz"/>
+        <connection t1="North Pfalz" t2="South East Federation territory"/>
+        <connection t1="North West Pfalz" t2="South East Federation territory"/>
+        <connection t1="North West Pfalz" t2="West Pfalz"/>
+        <connection t1="Northwest Comte" t2="West Rhone Canal"/>
+        <connection t1="Ornans" t2="Salins"/>
+        <connection t1="Ornans" t2="South Beanscon"/>
+        <connection t1="Ornans" t2="South Rhone Canal"/>
+        <connection t1="Pfalz border area" t2="Pfalz fields"/>
+        <connection t1="Pfalz border area" t2="Pirmasens"/>
+        <connection t1="Pfalz border area" t2="South Pfalz"/>
+        <connection t1="Pfalz border area" t2="South Pfalz fields"/>
+        <connection t1="Pfalz border area" t2="Wissembourg"/>
+        <connection t1="Pfalz fields" t2="South Pfalz"/>
+        <connection t1="Pfalz fields" t2="South Pfalz fields"/>
+        <connection t1="Pfalz lowlands" t2="Saar Pir Road"/>
+        <connection t1="Pfalz lowlands" t2="South East Federation territory"/>
+        <connection t1="Pfalz lowlands" t2="South West Pfalz"/>
+        <connection t1="Pfalz lowlands" t2="West Pfalz"/>
+        <connection t1="Pflinz" t2="Pflinz road"/>
+        <connection t1="Pflinz" t2="Russheim"/>
+        <connection t1="Pflinz" t2="Stuttensee"/>
+        <connection t1="Pflinz road" t2="Romeberg"/>
+        <connection t1="Pflinz road" t2="Russheim"/>
+        <connection t1="Pflinz road" t2="Stuttensee"/>
+        <connection t1="Phalsbourg" t2="Sarregemuines"/>
+        <connection t1="Phalsbourg" t2="Upper Canal Route"/>
+        <connection t1="Pirmasens" t2="Saar Pir Road"/>
+        <connection t1="Pirmasens" t2="South Pfalz"/>
+        <connection t1="Pontarlier" t2="Salins"/>
+        <connection t1="Pontarlier" t2="St Laurent"/>
+        <connection t1="Pontarlier" t2="Swiss Border"/>
+        <connection t1="Provinz Border" t2="Rodermarck"/>
+        <connection t1="Provinz Border" t2="West North Border Region"/>
+        <connection t1="Rhine fields" t2="South Rhine"/>
+        <connection t1="Rhone Rhine Link" t2="SWITZERLAND"/>
+        <connection t1="Rhone Rhine Link" t2="Salins"/>
+        <connection t1="Rhone Rhine Link" t2="Swiss Border"/>
+        <connection t1="Rodermarck" t2="Thionville"/>
+        <connection t1="Roll" t2="Speyer"/>
+        <connection t1="Romeberg" t2="Russheim"/>
+        <connection t1="Romeberg" t2="Sonderheim"/>
+        <connection t1="Rossel" t2="Saarbrucken"/>
+        <connection t1="Rossel" t2="Sarregemuines"/>
+        <connection t1="Rossel" t2="South Rossel"/>
+        <connection t1="Russheim" t2="Sonderheim"/>
+        <connection t1="SWITZERLAND" t2="Swiss Border"/>
+        <connection t1="SWITZERLAND" t2="Swiss Rhine"/>
+        <connection t1="SWITZERLAND" t2="Swiss salient area"/>
+        <connection t1="SWITZERLAND" t2="West Baden Swiss border"/>
+        <connection t1="Saar Pir Road" t2="Saarbrucken"/>
+        <connection t1="Saar Pir Road" t2="Sarregemuines"/>
+        <connection t1="Saar Pir Road" t2="South Pfalz"/>
+        <connection t1="Saar Pir Road" t2="South West Pfalz"/>
+        <connection t1="Saarbrucken" t2="Sarregemuines"/>
+        <connection t1="Salins" t2="South Rhone Canal"/>
+        <connection t1="Sarregemuines" t2="South Rossel"/>
+        <connection t1="Sarregemuines" t2="West Wingen Moder"/>
+        <connection t1="Saverne" t2="Strasbourg"/>
+        <connection t1="Selestat" t2="South Baden Lorraine Provinz"/>
+        <connection t1="Selestat" t2="Strasbourg"/>
+        <connection t1="Selestat" t2="Straszburg border sector"/>
+        <connection t1="Sonderheim" t2="Worth"/>
+        <connection t1="South Baden Lorraine Provinz" t2="Southwest Frie fields"/>
+        <connection t1="South Baden Lorraine Provinz" t2="West Baden Swiss border"/>
+        <connection t1="South East Federation territory" t2="South West Federation territory"/>
+        <connection t1="South East Federation territory" t2="West Pfalz"/>
+        <connection t1="South Heidenheim fields" t2="Staffort"/>
+        <connection t1="South Heidenheim fields" t2="Stuttensee"/>
+        <connection t1="South Lautere" t2="West Stutt road"/>
+        <connection t1="South Lautere" t2="Wissembourg"/>
+        <connection t1="South Pfalz" t2="South West Pfalz"/>
+        <connection t1="South Pfalz fields" t2="Stuttgart Pfalz"/>
+        <connection t1="South Pfalz fields" t2="Worth"/>
+        <connection t1="South Rhine" t2="Waldbronn"/>
+        <connection t1="South Rossel" t2="West Wingen Moder"/>
+        <connection t1="South Stutt road" t2="Stuttgart"/>
+        <connection t1="South Stutt road" t2="West Stutt road"/>
+        <connection t1="South West Federation territory" t2="Upper Saar"/>
+        <connection t1="South West Pfalz" t2="West Pfalz"/>
+        <connection t1="Southwest Frie fields" t2="West Baden Swiss border"/>
+        <connection t1="Southwest Frie fields" t2="West Frie fields"/>
+        <connection t1="St Die" t2="Upper Canal Route"/>
+        <connection t1="St Laurent" t2="Swiss Border"/>
+        <connection t1="Strasbourg" t2="Straszburg border sector"/>
+        <connection t1="Straszburg border sector" t2="West Frie fields"/>
+        <connection t1="Stupferich" t2="Tuttlingen"/>
+        <connection t1="Stuttgart" t2="Stuttgart Pfalz"/>
+        <connection t1="Stuttgart" t2="West Stutt road"/>
+        <connection t1="Stuttgart Pfalz" t2="Worth"/>
+        <connection t1="Upper Mosel" t2="Upper Saar"/>
+    </map>
+
+    <resourceList>
+        <resource name="PUs"/>
+    </resourceList>
+
+    <playerList>
+        <!-- In Turn Order -->
+        <player name="Wurttemburg" optional="false"/>
+        <player name="Baden" optional="false"/>
+        <player name="North_German_Federation" optional="false"/>
+        <player name="Hesse" optional="false"/>
+        <player name="France" optional="false"/>
+
+        <alliance player="Baden" alliance="Germany"/>
+        <alliance player="France" alliance="France"/>
+        <alliance player="Hesse" alliance="Germany"/>
+        <alliance player="North_German_Federation" alliance="Germany"/>
+        <alliance player="Wurttemburg" alliance="Germany"/>
+    </playerList>
+
+    <unitList>
+        <unit name="Dragoons"/>
+        <unit name="Field_cannons"/>
+        <unit name="Grenadiers"/>
+        <unit name="Hussars"/>
+        <unit name="Military_base"/>
+        <unit name="Rifles"/>
+        <unit name="Sharpshooters"/>
+    </unitList>
+
+    <gamePlay>
+        <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+        <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+        <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+        <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+        <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+        <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+        <delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>
+        <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+        <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+        <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+        <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+
+        <sequence>
+            <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+
+            <!-- Bidding Phase -->
+            <step name="BadenBidPlace" delegate="placeBid" player="Baden" maxRunCount="1"/>
+            <step name="FranceBidPlace" delegate="placeBid" player="France" maxRunCount="1"/>
+            <step name="HesseBidPlace" delegate="placeBid" player="Hesse" maxRunCount="1"/>
+            <step name="North_German_FederationBidPlace" delegate="placeBid" player="North_German_Federation" maxRunCount="1"/>
+            <step name="WurttemburgBidPlace" delegate="placeBid" player="Wurttemburg" maxRunCount="1"/>
+
+            <!-- Wurttemburg Game Sequence -->
+            <step name="WurttemburgTech" delegate="tech" player="Wurttemburg"/>
+            <step name="WurttemburgPurchase" delegate="purchase" player="Wurttemburg"/>
+            <step name="WurttemburgCombatMove" delegate="move" player="Wurttemburg"/>
+            <step name="WurttemburgBattle" delegate="battle" player="Wurttemburg"/>
+            <step name="WurttemburgNonCombatMove" delegate="move" player="Wurttemburg" display="Non Combat Move"/>
+            <step name="WurttemburgPlace" delegate="place" player="Wurttemburg"/>
+            <step name="WurttemburgTechActivation" delegate="tech_activation" player="Wurttemburg"/>
+            <step name="WurttemburgEndTurn" delegate="endTurn" player="Wurttemburg"/>
+
+            <!-- Baden Game Sequence -->
+            <step name="BadenTech" delegate="tech" player="Baden"/>
+            <step name="BadenPurchase" delegate="purchase" player="Baden"/>
+            <step name="BadenCombatMove" delegate="move" player="Baden"/>
+            <step name="BadenBattle" delegate="battle" player="Baden"/>
+            <step name="BadenNonCombatMove" delegate="move" player="Baden" display="Non Combat Move"/>
+            <step name="BadenPlace" delegate="place" player="Baden"/>
+            <step name="BadenTechActivation" delegate="tech_activation" player="Baden"/>
+            <step name="BadenEndTurn" delegate="endTurn" player="Baden"/>
+
+            <!-- Hesse Game Sequence -->
+            <step name="HesseTech" delegate="tech" player="Hesse"/>
+            <step name="HessePurchase" delegate="purchase" player="Hesse"/>
+            <step name="HesseCombatMove" delegate="move" player="Hesse"/>
+            <step name="HesseBattle" delegate="battle" player="Hesse"/>
+            <step name="HesseNonCombatMove" delegate="move" player="Hesse" display="Non Combat Move"/>
+            <step name="HessePlace" delegate="place" player="Hesse"/>
+            <step name="HesseTechActivation" delegate="tech_activation" player="Hesse"/>
+            <step name="HesseEndTurn" delegate="endTurn" player="Hesse"/>
+
+            <!-- France Game Sequence -->
+            <step name="FranceTech" delegate="tech" player="France"/>
+            <step name="FrancePurchase" delegate="purchase" player="France"/>
+            <step name="FranceCombatMove" delegate="move" player="France"/>
+            <step name="FranceBattle" delegate="battle" player="France"/>
+            <step name="FranceNonCombatMove" delegate="move" player="France" display="Non Combat Move"/>
+            <step name="FrancePlace" delegate="place" player="France"/>
+            <step name="FranceTechActivation" delegate="tech_activation" player="France"/>
+            <step name="FranceEndTurn" delegate="endTurn" player="France"/>
+
+            <!-- North_German_Federation Game Sequence -->
+            <step name="North_German_FederationTech" delegate="tech" player="North_German_Federation"/>
+            <step name="North_German_FederationPurchase" delegate="purchase" player="North_German_Federation"/>
+            <step name="North_German_FederationCombatMove" delegate="move" player="North_German_Federation"/>
+            <step name="North_German_FederationBattle" delegate="battle" player="North_German_Federation"/>
+            <step name="North_German_FederationNonCombatMove" delegate="move" player="North_German_Federation" display="Non Combat Move"/>
+            <step name="North_German_FederationPlace" delegate="place" player="North_German_Federation"/>
+            <step name="North_German_FederationTechActivation" delegate="tech_activation" player="North_German_Federation"/>
+            <step name="North_German_FederationEndTurn" delegate="endTurn" player="North_German_Federation"/>
+
+            <step name="endRoundStep" delegate="endRound"/>
+        </sequence>
+    </gamePlay>
+
+    <production>
+        <productionRule name="buyDragoons_Baden">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Dragoons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyDragoons_France">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Dragoons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyDragoons_Hesse">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Dragoons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyDragoons_North_German_Federation">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Dragoons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyDragoons_Wurttemburg">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Dragoons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyField_cannons_Baden">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Field_cannons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyField_cannons_France">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Field_cannons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyField_cannons_Hesse">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Field_cannons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyField_cannons_North_German_Federation">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Field_cannons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyField_cannons_Wurttemburg">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Field_cannons" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGrenadiers_Baden">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Grenadiers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGrenadiers_France">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Grenadiers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGrenadiers_Hesse">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Grenadiers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGrenadiers_North_German_Federation">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Grenadiers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGrenadiers_Wurttemburg">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="Grenadiers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHussars_Baden">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Hussars" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHussars_France">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Hussars" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHussars_Hesse">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Hussars" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHussars_North_German_Federation">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Hussars" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHussars_Wurttemburg">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="Hussars" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMilitary_base_Baden">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="Military_base" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMilitary_base_France">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="Military_base" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMilitary_base_Hesse">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="Military_base" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMilitary_base_North_German_Federation">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="Military_base" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMilitary_base_Wurttemburg">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="Military_base" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRifles_Baden">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="Rifles" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRifles_France">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="Rifles" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRifles_Hesse">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="Rifles" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRifles_North_German_Federation">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="Rifles" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRifles_Wurttemburg">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="Rifles" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySharpshooters_Baden">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="Sharpshooters" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySharpshooters_France">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="Sharpshooters" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySharpshooters_Hesse">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="Sharpshooters" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySharpshooters_North_German_Federation">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="Sharpshooters" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySharpshooters_Wurttemburg">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="Sharpshooters" quantity="1"/>
+        </productionRule>
+
+        <!-- Production Frontiers -->
+
+        <productionFrontier name="production_Baden">
+            <frontierRules name="buyDragoons_Baden"/>
+            <frontierRules name="buyField_cannons_Baden"/>
+            <frontierRules name="buyGrenadiers_Baden"/>
+            <frontierRules name="buyHussars_Baden"/>
+            <frontierRules name="buyMilitary_base_Baden"/>
+            <frontierRules name="buyRifles_Baden"/>
+            <frontierRules name="buySharpshooters_Baden"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_France">
+            <frontierRules name="buyDragoons_France"/>
+            <frontierRules name="buyField_cannons_France"/>
+            <frontierRules name="buyGrenadiers_France"/>
+            <frontierRules name="buyHussars_France"/>
+            <frontierRules name="buyMilitary_base_France"/>
+            <frontierRules name="buyRifles_France"/>
+            <frontierRules name="buySharpshooters_France"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Hesse">
+            <frontierRules name="buyDragoons_Hesse"/>
+            <frontierRules name="buyField_cannons_Hesse"/>
+            <frontierRules name="buyGrenadiers_Hesse"/>
+            <frontierRules name="buyHussars_Hesse"/>
+            <frontierRules name="buyMilitary_base_Hesse"/>
+            <frontierRules name="buyRifles_Hesse"/>
+            <frontierRules name="buySharpshooters_Hesse"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_North_German_Federation">
+            <frontierRules name="buyDragoons_North_German_Federation"/>
+            <frontierRules name="buyField_cannons_North_German_Federation"/>
+            <frontierRules name="buyGrenadiers_North_German_Federation"/>
+            <frontierRules name="buyHussars_North_German_Federation"/>
+            <frontierRules name="buyMilitary_base_North_German_Federation"/>
+            <frontierRules name="buyRifles_North_German_Federation"/>
+            <frontierRules name="buySharpshooters_North_German_Federation"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Wurttemburg">
+            <frontierRules name="buyDragoons_Wurttemburg"/>
+            <frontierRules name="buyField_cannons_Wurttemburg"/>
+            <frontierRules name="buyGrenadiers_Wurttemburg"/>
+            <frontierRules name="buyHussars_Wurttemburg"/>
+            <frontierRules name="buyMilitary_base_Wurttemburg"/>
+            <frontierRules name="buyRifles_Wurttemburg"/>
+            <frontierRules name="buySharpshooters_Wurttemburg"/>
+        </productionFrontier>
+
+        <!-- Production Frontier Assignments -->
+        <playerProduction player="Baden" frontier="production_Baden"/>
+        <playerProduction player="France" frontier="production_France"/>
+        <playerProduction player="Hesse" frontier="production_Hesse"/>
+        <playerProduction player="North_German_Federation" frontier="production_North_German_Federation"/>
+        <playerProduction player="Wurttemburg" frontier="production_Wurttemburg"/>
+    </production>
+
+    <attachmentList>
+        <!-- Unit Attachments -->
+
+        <attachment name="unitAttachment" attachTo="Dragoons" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="Field_cannons" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="5"/>
+            <option name="canBombard" value="false"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="1"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="Grenadiers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="Hussars" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="1"/>
+            <option name="isInfantry" value="true"/>
+            <option name="isMechanized" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="Military_base" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isFactory" value="true"/>
+            <option name="movement" value="0"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="Rifles" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="Sharpshooters" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+
+        <!-- Territory Data -->
+        <attachment name="territoryAttachment" attachTo="Argonne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Arzviller" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Austrian border region" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="BELGIUM" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Baden Rhine territory" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bar Le Duc" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Beanscon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Beanscon Canal Sector" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bernstein" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Birkweller" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bitche" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Wingen Moder" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Marlenheim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Grand Ballon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hohneck" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bobingen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Rhine fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cernay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Comte" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Barr" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bourg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Buchig" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Busenbach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ettlingen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central Alb" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central Baden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central Border Region" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central German terrtory" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central Rhone Canal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central Saar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Central West Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cernay Fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Champagnole" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Colmar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Durlach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Baden Swiss border" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Baden border" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Buchig" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Central Saar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Frie fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East German Swiss border" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Hagsfeld" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Heidenheim fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Itters fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Langenalb" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Lautere" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East North Border Region" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Rodermarck" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Saar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Swiss Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East Swiss hills" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="East central France" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Eggenstein" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Essingen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Frieburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="German Provinz area" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Grotzingen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hagsfeld" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hanhofen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hassloch" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Haut Koenigsburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+            <option name="capital" value="France"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Heidelburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="capital" value="Hesse"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Heidelburg Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Heidenheim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="capital" value="Baden"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Herrisson" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Inner German territory" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ittersbach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kaiserslautern" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="capital" value="North_German_Federation"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="LUXEMBOURG" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Langenalb" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lauda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="capital" value="Wurttemburg"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Leidolsheim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lembach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Linkenheim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Longwy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lorraine to Alsace Road" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lower Baden Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lower Meuse" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lower Mid Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lower Mosel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lower Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lower Saar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lower main Germany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Luneville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Main Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Main West Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Metz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mid Comte" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mid Region Fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mid Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Middle French Meuse" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Morteau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mousson" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mulhouse" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Munster" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nancy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="5"/>
+            <option name="capital" value="France"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North Baden Lorraine Provinz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North Comte" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North East Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North Frie fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North Heidenheim fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North Lautere" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="North West Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Northwest Comte" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ornans" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pfalz border area" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pfalz fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pfalz lowlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pflinz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pflinz road" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Phalsbourg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pirmasens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pontarlier" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Provinz Border" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Rhone Rhine Link" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Rodermarck" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Roll" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Romeberg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Rossel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Russheim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SWITZERLAND" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saar Pir Road" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saarbrucken" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Salins" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Sarregemuines" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saverne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Selestat" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Sonderheim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Baden Lorraine Provinz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Beanscon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Comte" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South East Federation territory" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Heidenheim fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Lautere" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Pfalz fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Rhone Canal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Rossel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South Stutt road" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South West Federation territory" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="South West Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Southwest Frie fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Speyer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="St Die" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="St Laurent" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Staffort" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Strasbourg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Straszburg border sector" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Stupferich" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Stuttensee" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Stuttgart" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Stuttgart Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Swiss Border" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Swiss Rhine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Swiss salient area" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Thionville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tuttlingen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Upper Canal Route" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Upper Meuse" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Upper Mosel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Upper Saar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Waldbronn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Weingarten" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="West Baden Swiss border" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="West Frie fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="West North Border Region" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="West Pfalz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="West Rhone Canal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="West Stutt road" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="West Wingen Moder" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Wissembourg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Worth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+    </attachmentList>
+
+    <initialize>
+        <ownerInitialize>
+            <!-- Baden Owned Territories -->
+            <territoryOwner territory="Baden Rhine territory" owner="Baden"/>
+            <territoryOwner territory="Bernstein" owner="Baden"/>
+            <territoryOwner territory="Busenbach" owner="Baden"/>
+            <territoryOwner territory="Central Alb" owner="Baden"/>
+            <territoryOwner territory="Central Baden" owner="Baden"/>
+            <territoryOwner territory="Central Rhine" owner="Baden"/>
+            <territoryOwner territory="Durlach" owner="Baden"/>
+            <territoryOwner territory="East Baden border" owner="Baden"/>
+            <territoryOwner territory="East Frie fields" owner="Baden"/>
+            <territoryOwner territory="East German Swiss border" owner="Baden"/>
+            <territoryOwner territory="East Heidenheim fields" owner="Baden"/>
+            <territoryOwner territory="Ettlingen" owner="Baden"/>
+            <territoryOwner territory="Grotzingen" owner="Baden"/>
+            <territoryOwner territory="Heidenheim" owner="Baden"/>
+            <territoryOwner territory="Lower Baden Rhine" owner="Baden"/>
+            <territoryOwner territory="Main Rhine" owner="Baden"/>
+            <territoryOwner territory="North Heidenheim fields" owner="Baden"/>
+            <territoryOwner territory="Pflinz" owner="Baden"/>
+            <territoryOwner territory="Rhine fields" owner="Baden"/>
+            <territoryOwner territory="South Heidenheim fields" owner="Baden"/>
+            <territoryOwner territory="South Rhine" owner="Baden"/>
+            <territoryOwner territory="South Stutt road" owner="Baden"/>
+            <territoryOwner territory="Staffort" owner="Baden"/>
+            <territoryOwner territory="Stuttensee" owner="Baden"/>
+            <!-- France Owned Territories -->
+            <territoryOwner territory="Argonne" owner="France"/>
+            <territoryOwner territory="Arzviller" owner="France"/>
+            <territoryOwner territory="Bar Le Duc" owner="France"/>
+            <territoryOwner territory="Barr" owner="France"/>
+            <territoryOwner territory="Beanscon" owner="France"/>
+            <territoryOwner territory="Beanscon Canal Sector" owner="France"/>
+            <territoryOwner territory="Bitche" owner="France"/>
+            <territoryOwner territory="Bourg" owner="France"/>
+            <territoryOwner territory="Central Border Region" owner="France"/>
+            <territoryOwner territory="Central Rhone Canal" owner="France"/>
+            <territoryOwner territory="Cernay" owner="France"/>
+            <territoryOwner territory="Cernay Fields" owner="France"/>
+            <territoryOwner territory="Champagnole" owner="France"/>
+            <territoryOwner territory="Colmar" owner="France"/>
+            <territoryOwner territory="East Comte" owner="France"/>
+            <territoryOwner territory="East Wingen Moder" owner="France"/>
+            <territoryOwner territory="East central France" owner="France"/>
+            <territoryOwner territory="Grand Ballon" owner="France"/>
+            <territoryOwner territory="Haut Koenigsburg" owner="France"/>
+            <territoryOwner territory="Herrisson" owner="France"/>
+            <territoryOwner territory="Hohneck" owner="France"/>
+            <territoryOwner territory="Lembach" owner="France"/>
+            <territoryOwner territory="Longwy" owner="France"/>
+            <territoryOwner territory="Lorraine to Alsace Road" owner="France"/>
+            <territoryOwner territory="Lower Meuse" owner="France"/>
+            <territoryOwner territory="Lower Mid Rhine" owner="France"/>
+            <territoryOwner territory="Luneville" owner="France"/>
+            <territoryOwner territory="Marlenheim" owner="France"/>
+            <territoryOwner territory="Metz" owner="France"/>
+            <territoryOwner territory="Mid Comte" owner="France"/>
+            <territoryOwner territory="Mid Region Fields" owner="France"/>
+            <territoryOwner territory="Mid Rhine" owner="France"/>
+            <territoryOwner territory="Middle French Meuse" owner="France"/>
+            <territoryOwner territory="Morteau" owner="France"/>
+            <territoryOwner territory="Mousson" owner="France"/>
+            <territoryOwner territory="Mulhouse" owner="France"/>
+            <territoryOwner territory="Munster" owner="France"/>
+            <territoryOwner territory="Nancy" owner="France"/>
+            <territoryOwner territory="North Comte" owner="France"/>
+            <territoryOwner territory="Northwest Comte" owner="France"/>
+            <territoryOwner territory="Ornans" owner="France"/>
+            <territoryOwner territory="Phalsbourg" owner="France"/>
+            <territoryOwner territory="Pontarlier" owner="France"/>
+            <territoryOwner territory="Rhone Rhine Link" owner="France"/>
+            <territoryOwner territory="Rodermarck" owner="France"/>
+            <territoryOwner territory="Salins" owner="France"/>
+            <territoryOwner territory="Sarregemuines" owner="France"/>
+            <territoryOwner territory="Saverne" owner="France"/>
+            <territoryOwner territory="Selestat" owner="France"/>
+            <territoryOwner territory="South Beanscon" owner="France"/>
+            <territoryOwner territory="South Comte" owner="France"/>
+            <territoryOwner territory="South Rhone Canal" owner="France"/>
+            <territoryOwner territory="St Die" owner="France"/>
+            <territoryOwner territory="St Laurent" owner="France"/>
+            <territoryOwner territory="Strasbourg" owner="France"/>
+            <territoryOwner territory="Swiss Border" owner="France"/>
+            <territoryOwner territory="Thionville" owner="France"/>
+            <territoryOwner territory="Upper Canal Route" owner="France"/>
+            <territoryOwner territory="Upper Meuse" owner="France"/>
+            <territoryOwner territory="West Rhone Canal" owner="France"/>
+            <territoryOwner territory="West Wingen Moder" owner="France"/>
+            <territoryOwner territory="Wissembourg" owner="France"/>
+            <!-- Hesse Owned Territories -->
+            <territoryOwner territory="Birkweller" owner="Hesse"/>
+            <territoryOwner territory="Bobingen" owner="Hesse"/>
+            <territoryOwner territory="Heidelburg" owner="Hesse"/>
+            <territoryOwner territory="Heidelburg Pfalz" owner="Hesse"/>
+            <territoryOwner territory="North Lautere" owner="Hesse"/>
+            <territoryOwner territory="Pfalz border area" owner="Hesse"/>
+            <territoryOwner territory="Pfalz fields" owner="Hesse"/>
+            <territoryOwner territory="Sonderheim" owner="Hesse"/>
+            <territoryOwner territory="South Pfalz fields" owner="Hesse"/>
+            <territoryOwner territory="Weingarten" owner="Hesse"/>
+            <territoryOwner territory="Worth" owner="Hesse"/>
+            <!-- North_German_Federation Owned Territories -->
+            <territoryOwner territory="Austrian border region" owner="North_German_Federation"/>
+            <territoryOwner territory="Buchig" owner="North_German_Federation"/>
+            <territoryOwner territory="Central German terrtory" owner="North_German_Federation"/>
+            <territoryOwner territory="Central Saar" owner="North_German_Federation"/>
+            <territoryOwner territory="East Buchig" owner="North_German_Federation"/>
+            <territoryOwner territory="East Central Saar" owner="North_German_Federation"/>
+            <territoryOwner territory="East Hagsfeld" owner="North_German_Federation"/>
+            <territoryOwner territory="East Itters fields" owner="North_German_Federation"/>
+            <territoryOwner territory="East Langenalb" owner="North_German_Federation"/>
+            <territoryOwner territory="East North Border Region" owner="North_German_Federation"/>
+            <territoryOwner territory="East Pfalz" owner="North_German_Federation"/>
+            <territoryOwner territory="East Rodermarck" owner="North_German_Federation"/>
+            <territoryOwner territory="East Saar" owner="North_German_Federation"/>
+            <territoryOwner territory="Essingen" owner="North_German_Federation"/>
+            <territoryOwner territory="German Provinz area" owner="North_German_Federation"/>
+            <territoryOwner territory="Hagsfeld" owner="North_German_Federation"/>
+            <territoryOwner territory="Hanhofen" owner="North_German_Federation"/>
+            <territoryOwner territory="Hassloch" owner="North_German_Federation"/>
+            <territoryOwner territory="Inner German territory" owner="North_German_Federation"/>
+            <territoryOwner territory="Kaiserslautern" owner="North_German_Federation"/>
+            <territoryOwner territory="Langenalb" owner="North_German_Federation"/>
+            <territoryOwner territory="Lower Mosel" owner="North_German_Federation"/>
+            <territoryOwner territory="Lower Saar" owner="North_German_Federation"/>
+            <territoryOwner territory="Lower main Germany" owner="North_German_Federation"/>
+            <territoryOwner territory="North East Pfalz" owner="North_German_Federation"/>
+            <territoryOwner territory="North Pfalz" owner="North_German_Federation"/>
+            <territoryOwner territory="North West Pfalz" owner="North_German_Federation"/>
+            <territoryOwner territory="Pfalz lowlands" owner="North_German_Federation"/>
+            <territoryOwner territory="Pirmasens" owner="North_German_Federation"/>
+            <territoryOwner territory="Provinz Border" owner="North_German_Federation"/>
+            <territoryOwner territory="Roll" owner="North_German_Federation"/>
+            <territoryOwner territory="Rossel" owner="North_German_Federation"/>
+            <territoryOwner territory="Saar Pir Road" owner="North_German_Federation"/>
+            <territoryOwner territory="Saarbrucken" owner="North_German_Federation"/>
+            <territoryOwner territory="South East Federation territory" owner="North_German_Federation"/>
+            <territoryOwner territory="South Pfalz" owner="North_German_Federation"/>
+            <territoryOwner territory="South Rossel" owner="North_German_Federation"/>
+            <territoryOwner territory="South West Federation territory" owner="North_German_Federation"/>
+            <territoryOwner territory="South West Pfalz" owner="North_German_Federation"/>
+            <territoryOwner territory="Speyer" owner="North_German_Federation"/>
+            <territoryOwner territory="Stupferich" owner="North_German_Federation"/>
+            <territoryOwner territory="Upper Mosel" owner="North_German_Federation"/>
+            <territoryOwner territory="Upper Saar" owner="North_German_Federation"/>
+            <territoryOwner territory="West North Border Region" owner="North_German_Federation"/>
+            <territoryOwner territory="West Pfalz" owner="North_German_Federation"/>
+            <!-- Wurttemburg Owned Territories -->
+            <territoryOwner territory="Central West Rhine" owner="Wurttemburg"/>
+            <territoryOwner territory="East Baden Swiss border" owner="Wurttemburg"/>
+            <territoryOwner territory="East Lautere" owner="Wurttemburg"/>
+            <territoryOwner territory="East Swiss Rhine" owner="Wurttemburg"/>
+            <territoryOwner territory="East Swiss hills" owner="Wurttemburg"/>
+            <territoryOwner territory="Eggenstein" owner="Wurttemburg"/>
+            <territoryOwner territory="Frieburg" owner="Wurttemburg"/>
+            <territoryOwner territory="Ittersbach" owner="Wurttemburg"/>
+            <territoryOwner territory="Lauda" owner="Wurttemburg"/>
+            <territoryOwner territory="Leidolsheim" owner="Wurttemburg"/>
+            <territoryOwner territory="Linkenheim" owner="Wurttemburg"/>
+            <territoryOwner territory="Lower Rhine" owner="Wurttemburg"/>
+            <territoryOwner territory="Main West Rhine" owner="Wurttemburg"/>
+            <territoryOwner territory="North Baden Lorraine Provinz" owner="Wurttemburg"/>
+            <territoryOwner territory="North Frie fields" owner="Wurttemburg"/>
+            <territoryOwner territory="Pflinz road" owner="Wurttemburg"/>
+            <territoryOwner territory="Romeberg" owner="Wurttemburg"/>
+            <territoryOwner territory="Russheim" owner="Wurttemburg"/>
+            <territoryOwner territory="South Baden Lorraine Provinz" owner="Wurttemburg"/>
+            <territoryOwner territory="South Lautere" owner="Wurttemburg"/>
+            <territoryOwner territory="Southwest Frie fields" owner="Wurttemburg"/>
+            <territoryOwner territory="Straszburg border sector" owner="Wurttemburg"/>
+            <territoryOwner territory="Stuttgart" owner="Wurttemburg"/>
+            <territoryOwner territory="Stuttgart Pfalz" owner="Wurttemburg"/>
+            <territoryOwner territory="Swiss Rhine" owner="Wurttemburg"/>
+            <territoryOwner territory="Swiss salient area" owner="Wurttemburg"/>
+            <territoryOwner territory="Tuttlingen" owner="Wurttemburg"/>
+            <territoryOwner territory="Waldbronn" owner="Wurttemburg"/>
+            <territoryOwner territory="West Baden Swiss border" owner="Wurttemburg"/>
+            <territoryOwner territory="West Frie fields" owner="Wurttemburg"/>
+            <territoryOwner territory="West Stutt road" owner="Wurttemburg"/>
+        </ownerInitialize>
+
+        <unitInitialize>
+
+            <!-- Baden Unit Placements -->
+            <unitPlacement unitType="Military_base" territory="Grotzingen" quantity="1" owner="Baden"/>
+            <unitPlacement unitType="Military_base" territory="Heidenheim" quantity="1" owner="Baden"/>
+            <unitPlacement unitType="Military_base" territory="Rhine fields" quantity="1" owner="Baden"/>
+
+            <!-- France Unit Placements -->
+            <unitPlacement unitType="Military_base" territory="Beanscon" quantity="1" owner="France"/>
+            <unitPlacement unitType="Military_base" territory="Colmar" quantity="1" owner="France"/>
+            <unitPlacement unitType="Military_base" territory="East central France" quantity="1" owner="France"/>
+            <unitPlacement unitType="Military_base" territory="Metz" quantity="1" owner="France"/>
+            <unitPlacement unitType="Military_base" territory="Nancy" quantity="1" owner="France"/>
+            <unitPlacement unitType="Military_base" territory="Rhone Rhine Link" quantity="1" owner="France"/>
+
+            <!-- Hesse Unit Placements -->
+            <unitPlacement unitType="Military_base" territory="Birkweller" quantity="1" owner="Hesse"/>
+            <unitPlacement unitType="Military_base" territory="Heidelburg" quantity="1" owner="Hesse"/>
+            <unitPlacement unitType="Military_base" territory="Worth" quantity="1" owner="Hesse"/>
+
+            <!-- North_German_Federation Unit Placements -->
+            <unitPlacement unitType="Military_base" territory="East Hagsfeld" quantity="1" owner="North_German_Federation"/>
+            <unitPlacement unitType="Military_base" territory="German Provinz area" quantity="1" owner="North_German_Federation"/>
+            <unitPlacement unitType="Military_base" territory="Hanhofen" quantity="1" owner="North_German_Federation"/>
+            <unitPlacement unitType="Military_base" territory="Inner German territory" quantity="1" owner="North_German_Federation"/>
+            <unitPlacement unitType="Military_base" territory="Kaiserslautern" quantity="1" owner="North_German_Federation"/>
+            <unitPlacement unitType="Military_base" territory="South West Federation territory" quantity="1" owner="North_German_Federation"/>
+
+            <!-- Wurttemburg Unit Placements -->
+            <unitPlacement unitType="Military_base" territory="Frieburg" quantity="1" owner="Wurttemburg"/>
+            <unitPlacement unitType="Military_base" territory="Lauda" quantity="1" owner="Wurttemburg"/>
+            <unitPlacement unitType="Military_base" territory="Stuttgart" quantity="1" owner="Wurttemburg"/>
+            <unitPlacement unitType="Military_base" territory="Tuttlingen" quantity="1" owner="Wurttemburg"/>
+        </unitInitialize>
+
+        <resourceInitialize>
+            <resourceGiven player="Baden" resource="PUs" quantity="0"/>
+            <resourceGiven player="France" resource="PUs" quantity="0"/>
+            <resourceGiven player="Hesse" resource="PUs" quantity="0"/>
+            <resourceGiven player="North_German_Federation" resource="PUs" quantity="0"/>
+            <resourceGiven player="Wurttemburg" resource="PUs" quantity="0"/>
+        </resourceInitialize>
+    </initialize>
+
+    <propertyList>
+        <property name="Baden bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="France bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="Hesse bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="North German Federation" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="Wurttemburg bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="4th Edition" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="AA50 Tech Model" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Air Attack Sub Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="All Rockets Attack" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Allied Air Dependents" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Attacker Retreat Planes" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Continuous Research" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Defending Subs Sneak Attack" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Honorable Surrender" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="National Objectives" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Naval Bombard Casualties Return Fire Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Neutrals Are Impassable" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="No Economic Victory" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Occupied Territories" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Pacific Edition" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Partial Amphibious Retreat" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Place in Any Territory" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Projection of Power" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Random AA Casualties" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Rockets Can Violate Neutrality" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Roll AA Individually" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="SBR Victory Points" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Selectable Tech Roll" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Shore Bombard Per Ground Unit Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Sub Retreat Before Battle" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Surviving Air Move To Land" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Tech Development" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Total Victory" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Transport Casualties Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Transport Restricted Unload" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Two hit battleship" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Unit Placement In Enemy Seas" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="maxFactoriesPerTerritory" value="1" editable="false">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="neutralCharge" value="0" editable="false">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="notes">
+            <value>
+            <![CDATA[<center><big><b><u>THE FRANCO PRUSSIAN WAR</u></center></big></b>
+<br>
+<br>
+<center><em>Take command of one of the factions in the Franco-Prussian war, a struggle between the united North German Federation, lead by Otto Von Bismarck of Prussia, her three South German allies and the French Republic, all vying for control
+of the Alsace-Lorraine region.</em></center>
+<br>
+The Germans must occupy all of the Alsace-Lorraine, while the French must hold them back and scatter the German attackers.]]>
+            </value>
+        </property>
+        <property name="mapName" value="Franco_Prussian_War" editable="false"/>
+    </propertyList>
+</game>

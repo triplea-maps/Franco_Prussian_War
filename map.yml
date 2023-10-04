@@ -1,0 +1,4 @@
+map_name: Franco_Prussian_War
+games:
+- {game_name: Franco-Prussian War, file_name: Franco_Prussian_War.xml}
+version: 0
